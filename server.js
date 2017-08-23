@@ -4,8 +4,8 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-
-var articleOne={
+var articles={
+ articleOne:{
      title:'Article-one| Mohanraj',
      heading:'Article-one',
      date:'Aug - 23 - 2017',
@@ -17,6 +17,21 @@ var articleOne={
             This is my first webpage and that too tanmai is teaching good also i got many points through him.
             This is my first webpage and that too tanmai is teaching good also i got many points through him.</p>`
         
+},
+ articleTwo:{
+     title:'Article-Two| Mohanraj',
+     heading:'Article-Two',
+     date:'Aug - 25 - 2017',
+     content:`<p>This is my Third webpage and that too tanmai is teaching good also i got many points through him.
+           </p>`
+ },
+ articleThree:{
+      title:'Article-Three| Mohanraj',
+     heading:'Article-Three',
+     date:'Aug - 29 - 2017',
+     content:`<p>This is my Third webpage and that too tanmai is teaching good also i got many points through him.
+           </p>`
+ }
 };
 
 function createTemplate(data){
