@@ -15,7 +15,8 @@ var articleOne={
             
              <p>This is my first webpage and that too tanmai is teaching good also i got many points through him.
             This is my first webpage and that too tanmai is teaching good also i got many points through him.
-            This is my first webpage and that too tanmai is teaching good also i got many points through him.</p>'
+            This is my first webpage and that too tanmai is teaching good also i got many points through him.</p>`
+        
 };
 
 function createTemplate(data){
@@ -23,7 +24,7 @@ function createTemplate(data){
     var heading=data.heading;
     var date=data.date;
     var content=data.content;
-    var htmlTemplate=
+    var htmlTemplate=`
                     <html>
                         <head>
                              <title> ${title}</title>
@@ -48,9 +49,8 @@ function createTemplate(data){
                         </div>
                         
                     </body>
-                    </html>
-    ;
-    return htmlTemplate;
+                    </html> ;
+    return htmlTemplate;`
 }
 
 app.get('/', function (req, res) {
