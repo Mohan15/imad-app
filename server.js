@@ -18,14 +18,14 @@ var articles={
             This is my first webpage and that too tanmai is teaching good also i got many points through him.</p>`
         
 },
-' article-two':{
+'article-two':{
      title:'Article-Two| Mohanraj',
      heading:'Article-Two',
      date:'Aug - 25 - 2017',
      content:`<p>This is my Third webpage and that too tanmai is teaching good also i got many points through him.
            </p>`
  },
-' article-three':{
+'article-three':{
       title:'Article-Three| Mohanraj',
      heading:'Article-Three',
      date:'Aug - 29 - 2017',
