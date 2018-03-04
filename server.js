@@ -22,7 +22,7 @@ var articles={
      title:'Article-Two| Mohanraj',
      heading:'Article-Two',
      date:'Aug - 25 - 2017',
-     content:`<p>This is my Third webpage and that too tanmai is teaching good also i got many points through him.
+     content:`<p>This is my Second webpage and that too tanmai is teaching good also i got many points through him.
           </p>`
  },
 'article-three':{
