@@ -6,6 +6,14 @@ element.innerHTML="My New Page";
 
 //To Move the Image
 var img=document.getElementById('madi');
+
+var marginLeft=0;
+function moveright(){
+    marginLeft=marginLeft+10;
+img.style.marginLeft=marginLeft+'px';
+
+}
+
 img.onclick = function(){
-    img.style.marginRight='100px';
+    var interval=setInterval(moveright,100);
 };
