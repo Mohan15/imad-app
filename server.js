@@ -6,16 +6,16 @@ var app = express();
 app.use(morgan('combined'));
 var articles={
 'article-one':{
-//      title:'Article-one| Mohanraj',
-//      heading:'Article-one',
-//      date:'Aug - 23 - 2017',
-//      content:`<p>This is my first webpage and that too tanmai is teaching good also i got many points through him.
-//             This is my first webpage and that too tanmai is teaching good also i got many points through him.
-//             This is my first webpage and that too tanmai is teaching good also i got many points through him.</p>
+     title:'Article-one| Mohanraj',
+     heading:'Article-one',
+     date:'Aug - 23 - 2017',
+     content:`<p>This is my first webpage and that too tanmai is teaching good also i got many points through him.
+            This is my first webpage and that too tanmai is teaching good also i got many points through him.
+            This is my first webpage and that too tanmai is teaching good also i got many points through him.</p>
             
-//              <p>This is my first webpage and that too tanmai is teaching good also i got many points through him.
-//             This is my first webpage and that too tanmai is teaching good also i got many points through him.
-//             This is my first webpage and that too tanmai is teaching good also i got many points through him.</p>`
+             <p>This is my first webpage and that too tanmai is teaching good also i got many points through him.
+            This is my first webpage and that too tanmai is teaching good also i got many points through him.
+            This is my first webpage and that too tanmai is teaching good also i got many points through him.</p>`
         
 },
 'article-two':{
