@@ -5,6 +5,7 @@ button.onClick = function () {
     //request to counter endpoint
     var request=new XMLHttpRequest();
     
+    
     //get the response and store it in a varible 
     request.onreadystatechange =function(){
         if(request.readystate===XMLHttpRequest.DONE){
@@ -15,5 +16,6 @@ button.onClick = function () {
             }
         }
     };
-    
+    request.open('GET','http://pmohanraj108.imad.hasura.io/counter',true);
+    request.send(null);
 };
