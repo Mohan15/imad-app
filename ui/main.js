@@ -29,3 +29,4 @@ button.onClick = function () {
     var span = document.getElementById();
     span.innerHTML = counter.toString();
 };
+alert("hi hi hi hih hih hihhihihih ");
