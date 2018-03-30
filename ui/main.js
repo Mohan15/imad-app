@@ -20,7 +20,7 @@ img.onclick = function(){
 
 var button = document.getElementById('counter');
 var counter = 0;
-button.onClick = function(){
+button.onClick = function () {
     //request to counter endpoint
     
     //get the response and store it in a varible 
