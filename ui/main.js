@@ -1,4 +1,4 @@
-console.log('Loaded!');
+/*console.log('Loaded!');
 
 //To Change the elemnt as "My New Page"
 var element=document.getElementById('mainpage');
@@ -16,9 +16,9 @@ img.style.marginLeft=marginLeft + 'px';
 
 img.onclick = function(){
     var interval=setInterval(moveright,50);
-};
+};*/
 
-/*var button = document.getElementById('counter');
+var button = document.getElementById('counter');
 var counter = 0;
 button.onClick = function () {
     //request to counter endpoint
@@ -30,4 +30,4 @@ button.onClick = function () {
     var span = document.getElementById('count');
     span.innerHTML = counter.toString();
     
-};*/
+};
