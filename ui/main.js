@@ -1,4 +1,4 @@
-console.log('Loaded!');
+/*console.log('Loaded!');
 
 //To Change the elemnt as "My New Page"
 var element=document.getElementById('mainpage');
@@ -16,4 +16,17 @@ img.style.marginLeft=marginLeft + 'px';
 
 img.onclick = function(){
     var interval=setInterval(moveright,50);
+};*/
+var counter=0;
+var button = document.getElementById('counter');
+button.onClick=function(){
+    //request to counter endpoint
+    
+    //get the response and store it in a varible 
+    
+    //render the varible with span
+    counter=counter+1;
+    var span=document.getElementById('count');
+    span.innerHTML=counter.toString();
+    
 };
