@@ -20,7 +20,7 @@ button.onClick = function () {
     request.open('GET','http://pmohanraj108.imad.hasura.io/counter',true);
     request.send(null);
 };*/
-
+alert("hi ");
 
 var button =document.getElementById('counter');
 button.onClick = function () {
