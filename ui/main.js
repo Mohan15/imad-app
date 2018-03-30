@@ -19,15 +19,15 @@ img.onclick = function(){
 };*/
 
 var button = document.getElementById('counter');
-var counter1 = 1;
+var counter = 0;
 button.onClick = function(){
     //request to counter endpoint
     
     //get the response and store it in a varible 
     
     //render the varible with span
-    counter1 = counter1 + 1;
+    counter = counter + 1;
     var span = document.getElementById('count');
-    span.innerHTML = counter1.toString();
+    span.innerHTML = counter.toString();
     
 };
