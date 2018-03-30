@@ -21,6 +21,7 @@ button.onClick = function () {
     request.send(null);
 };*/
 
+
 var button =document.getElementById('counter');
 button.onClick = function () {
     
