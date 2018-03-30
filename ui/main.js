@@ -1,5 +1,24 @@
+console.log('Loaded!');
 
-var button = document.getElementById('counter');
+//To Change the elemnt as "My New Page"
+var element=document.getElementById('mainpage');
+element.innerHTML="My New Page";
+
+//To Move the Image
+var img=document.getElementById('madi');
+
+var marginLeft=0;
+function moveright(){
+    marginLeft=marginLeft+1;
+img.style.marginLeft=marginLeft + 'px';
+
+}
+
+img.onclick = function(){
+    var interval=setInterval(moveright,50);
+};
+
+/*var button = document.getElementById('counter');
 
 button.onClick = function () {
     //request to counter endpoint
@@ -18,4 +37,4 @@ button.onClick = function () {
     };
     request.open('GET','http://pmohanraj108.imad.hasura.io/counter',true);
     request.send(null);
-};
+};*/
