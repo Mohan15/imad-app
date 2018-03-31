@@ -22,9 +22,10 @@ button.onClick = function () {
 };*/
 alert("hi ");
 
-document.getElementById("counter").onclick = function () {
+var button =document.getElementById('counter');
+button.onclick = function () {
     alert("hi hi hi hih hih hihhihihih ");
-    /*counter = counter + 1 ;
+    counter = counter + 1 ;
     var span = document.getElementById();
-    span.innerHTML = counter.toString();*/
+    span.innerHTML = counter.toString();
 };
