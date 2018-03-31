@@ -22,7 +22,7 @@ button.onClick = function () {
 };*/
 alert("hi ");
 
-var button=document.getElementById('counter');
+var button=document.getElementById("counter");
 button.onClick = function () {
     alert("hi hi hi hih hih hihhihihih ");
     /*counter = counter + 1 ;
