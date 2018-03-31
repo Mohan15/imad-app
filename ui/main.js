@@ -23,6 +23,7 @@ button.onClick = function () {
 alert("hi ");
 
 var button =document.getElementById('counter');
+var counter=0;
 button.onclick = function () {
     alert("hi hi hi hih hih hihhihihih ");
     counter = counter + 1 ;
