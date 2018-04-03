@@ -10,8 +10,9 @@ button.onclick = function () {
     
     //get the response and store it in a varible 
     request.onreadystatechange = function () {
-         alert("hi asdfasdf");
+       
         if(request.readyState===XMLHttpRequest.DONE){
+              alert("hi asdfasdf");
             if(request.status===200){
                 var counter=request.responseText;
                 var span = document.getElementById('count');
