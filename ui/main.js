@@ -15,9 +15,10 @@ button.onclick = function () {
               
             if(request.status===200){
                 var counter=request.responseText;
+                alert("hi asdfdone");
                 var span = document.getElementById('count');
                 span.innerHTML = counter.toString();
-                alert("hi done");
+            
             }
         }
     };
