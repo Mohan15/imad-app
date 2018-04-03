@@ -3,10 +3,10 @@
 var button = document.getElementById('counter');
 
 button.onclick = function () {
-    alert("hi ");
+    
     //Create a request.
     var request=new XMLHttpRequest();
-    
+    alert("hi ");
     
     //get the response and store it in a varible 
     request.onreadystatechange = function () {
