@@ -3,7 +3,7 @@
 var button = document.getElementById('counter');
 
 button.onclick = function () {
-    //request to counter endpoint
+    //Create a request.
     var request=new XMLHttpRequest();
     
     
@@ -17,6 +17,7 @@ button.onclick = function () {
             }
         }
     };
+    //Make a request.
     request.open('GET','http://pmohanraj108.imad.hasura.io/counter',true);
     request.send(null);
 };
