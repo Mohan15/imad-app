@@ -6,7 +6,7 @@ button.onclick = function () {
     
     //Create a request.
     var request=new XMLHttpRequest();
-    alert("hi ");
+    alert("hi asdf");
     
     //get the response and store it in a varible 
     request.onreadystatechange = function () {
