@@ -1,8 +1,9 @@
 
 
-/*var button = document.getElementById('counter');
+var button = document.getElementById('counter');
 
 button.onclick = function () {
+    alert("hi ");
     //Create a request.
     var request=new XMLHttpRequest();
     
@@ -20,8 +21,8 @@ button.onclick = function () {
     //Make a request.
     request.open('GET','http://pmohanraj108.imad.hasura.io/counter',true);
     request.send(null);
-};*/
-alert("hi ");
+};
+/*alert("hi ");
 
 var button =document.getElementById('counter');
 var counter=0;
@@ -31,3 +32,4 @@ button.onclick = function () {
     var span = document.getElementById('count');
     span.innerHTML = counter.toString();
 };
+*/
